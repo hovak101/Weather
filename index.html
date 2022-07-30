@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Weather</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+<!--   <link href="style.css" rel="stylesheet" type="text/css" />
+</head> -->
+
+<body>
+ 
+  <div class ="top">
+    <div class = "f-d">
+      <input style="height: 50px; width: 500px;" id = "search" placeholder="search for city">
+      <button id = "submit">submit</button>
+      <button id = "fahrenheitButton" class="button is-large is-responsive">F</button>
+      <button id= "celciusButton" class="button is-large is-responsive">C</button>  
+    </div>
+    <div id = "recentSearch">
+      <h1 class="title is-3">Recent searches:</h1>
+      <h2 class="title is-4" id= "recent">hello</h2>
+    </div>
+  </div>
+    
+  <div class="middle">
+    <p class="title is-1" id="cityName">City</p>
+    <img id="weatherImg" src="https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png"/>
+    <p id="weatherCondition" class="title is-1">Condition</p>
+    <p id="temp" class="title is-one">Temp</p>
+  </div>
+  
+  <div class = "bottom">
+  </div>
+  
+  
+
+   
+    
+  
+  <footer>
+
+  </footer>
+  
+  
+  <script src="script.js"></script>
+
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>

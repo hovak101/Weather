@@ -1,0 +1,47 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color:#6495ED;
+}
+
+/* .top{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-left: 30%;
+} */
+
+#celciusButton{
+  background-color: blue;
+  color: white;
+}
+#fahrenheitButton{
+  background-color: red;
+  color: white;
+}
+.f-d{
+  padding-right:5%;
+  
+  
+}
+/* #search{
+  font-size: 50px;
+  
+} */
+/* .recentSearch{
+  padding-right:10%;
+} */
+#cityName{
+  display: flex;
+  justify-content: center;
+}
+#weatherImg{
+  padding-left:25%;
+  position: relative; 
+  top: -200px;
+} */
+/* #weatherCondition{
+  padding-left:45%;
+ position: relative; 
+  top: -400px;
+}
